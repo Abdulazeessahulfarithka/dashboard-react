@@ -10,7 +10,6 @@ import {
     ArcElement,
     Tooltip,
     Legend,
-    Chart,
     CategoryScale,
     LinearScale,
     PointElement,
