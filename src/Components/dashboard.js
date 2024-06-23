@@ -3,7 +3,7 @@ import Card from './card'
 import Data from "./data.js"
 import Cart from "./cart.js"
 
-import { Bar, Doughnut, Line, Pie,} from "react-chartjs-2";
+import {Pie,} from "react-chartjs-2";
 
 import {
     Chart as ChartJS,
@@ -45,7 +45,7 @@ const dashboard = () => {
           color={"border-left-primary"}
         />
         <Card title="Summary Dashbaord "  color={"border-left-info"} />
-        <Card title="Progress Monitor" style={{backgroundColor:"yellow  "}}/>
+        <Card title="Progress Monitor" color={"border-left-info"}/>
         <Card title="Resource Monitor"  color={"border-left-success"} />
         <Card title="Procurement Monitor"  color={"border-left-success"} />
         <Card title="Issue Register"  color={"border-left-success"} />
